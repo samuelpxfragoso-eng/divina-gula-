@@ -7,6 +7,7 @@ import { MenuDigital } from './components/MenuDigital';
 import { FamousGuests } from './components/FamousGuests';
 import { InstagramFeed } from './components/InstagramFeed';
 import { TripAdvisorReviews } from './components/TripAdvisorReviews';
+import { SpecialtyArticle } from './components/SpecialtyArticle';
 import { FAQSection } from './components/FAQSection';
 import { MapSection } from './components/MapLocation';
 import { FloatingElements } from './components/FloatingElements';
@@ -21,6 +22,7 @@ export default function App() {
         <VideoCarousel />
         <ReviewsSection />
         <HistorySection />
+        <SpecialtyArticle />
         <MenuDigital />
         <FamousGuests />
         <InstagramFeed />
