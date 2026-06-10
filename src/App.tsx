@@ -13,23 +13,25 @@ import { FloatingElements } from './components/FloatingElements';
 
 export default function App() {
   return (
-    <main className="min-h-screen bg-mare-cream pt-20">
+    <>
       <Navbar />
       <FloatingElements />
-      <HeroSection />
-      <VideoCarousel />
-      <ReviewsSection />
-      <HistorySection />
-      <MenuDigital />
-      <FamousGuests />
-      <InstagramFeed />
-      <TripAdvisorReviews />
-      <FAQSection />
-      <MapSection />
-      
-      <footer className="py-10 text-center text-mare-navy/60">
-        <p>&copy; 2026 Divina Gula. Todos os direitos reservados.</p>
-      </footer>
-    </main>
+      <main className="min-h-screen bg-mare-cream">
+        <HeroSection />
+        <VideoCarousel />
+        <ReviewsSection />
+        <HistorySection />
+        <MenuDigital />
+        <FamousGuests />
+        <InstagramFeed />
+        <TripAdvisorReviews />
+        <FAQSection />
+        <MapSection />
+        
+        <footer className="py-10 text-center text-mare-navy/60">
+          <p>&copy; 2026 Divina Gula. Todos os direitos reservados.</p>
+        </footer>
+      </main>
+    </>
   );
 }
